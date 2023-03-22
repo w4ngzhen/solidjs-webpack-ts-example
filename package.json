@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "w4ngzhen",
   "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc",
+    "start": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js --mode=production"
+  },
   "devDependencies": {
     "@babel/core": "^7.21.3",
     "@babel/plugin-proposal-class-properties": "^7.18.6",
