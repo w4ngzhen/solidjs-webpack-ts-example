@@ -21,5 +21,9 @@
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
+  },
+  "dependencies": {
+    "@solidjs/router": "^0.8.1",
+    "solid-js": "^1.6.15"
   }
 }
